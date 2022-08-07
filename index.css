@@ -1,0 +1,52 @@
+* {
+	font-family: "Roboto", sans-serif;
+	/*semicolon: delimiter*/
+}
+
+h1, h2 {
+	font-family: "Montserrat", sans-serif;
+}
+
+img {
+	height: 250px;
+	width: 250px;
+}
+.jumbotron{
+    background-color:transparent;
+}
+#landing{
+    height:80vh;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+/* centers the content vertically using flexbox */
+#gallery{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 75vh;
+}
+/* adds spacing and borders to each section */
+.tools{
+    padding: 25px;
+    height: 200px;
+    border: 5px solid #333;
+    margin:20px;
+    width:75%;
+}
+.tools ul{
+    list-style-type: none;
+    padding:0;
+    margin:0;
+}
+/* changes the color of the section headers */
+.tools h2{
+    color:red;
+}
+
+.tools ul li{
+    color: #fff;
+}
